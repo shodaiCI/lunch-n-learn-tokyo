@@ -14,7 +14,7 @@ jobs:
       - checkout
       - run: echo "A second hello" 
       - run: sleep 5
-  workflows:
+workflows:
   version: 2
   build_and_test:
     jobs:
